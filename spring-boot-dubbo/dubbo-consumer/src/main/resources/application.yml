@@ -6,6 +6,8 @@ server:
   port: 8081
 
 dubbo:
+  registry:
+    use-as-config-center: false
   application:
     service-discovery:
       migration: FORCE_APPLICATION  # dubbo3.0新增配置
